@@ -1,12 +1,22 @@
 // aprasyti kokio tipo yra people masyvas (interface)
-
+export interface PersObj {
+  name: string;
+  surname: string;
+  sex: 'male' | 'female';
+  age: number;
+  income: number;
+  married: boolean;
+  hasCar: boolean;
+}
 // is cia eksportuosim interface ir people
 
 // importuosim i app.ts
 
 // app.ts insconsolinsim su console.table people masyva
 
-const people = [
+// atspausdinti tik vardus
+
+export const people: PersObj[] = [
   {
     name: 'Jonas',
     surname: 'Jonaitis',

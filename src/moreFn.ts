@@ -18,7 +18,7 @@ const minus: MathFuntion = function (x, y) {
   return rez;
 };
 
-const mulitply: MathFuntion = function (x, y) {
-  const rez = x * y;
-  console.log('rez ===', rez);
-};
+// const mulitply: MathFuntion = function (x, y) {
+//   const rez = x * y;
+//   console.log('rez ===', rez);
+// };

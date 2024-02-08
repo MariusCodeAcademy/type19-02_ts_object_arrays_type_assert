@@ -11,9 +11,8 @@ const minus = function (x, y) {
     console.log('rez ===', rez);
     return rez;
 };
-const mulitply = function (x, y) {
-    const rez = x - y;
-    console.log('rez ===', rez);
-    return rez;
-};
+// const mulitply: MathFuntion = function (x, y) {
+//   const rez = x * y;
+//   console.log('rez ===', rez);
+// };
 //# sourceMappingURL=moreFn.js.map
