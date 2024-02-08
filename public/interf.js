@@ -15,8 +15,12 @@ const us1 = {
     isAdmin: false,
 };
 const us2 = {
-    id: 5,
-    name: 'Jill',
+    id: 2,
+    name: 'Jane',
     isAdmin: false,
+    houseNr: 5,
+    street: 'Vytautauto',
+    town: 'Kaunas',
+    postCode: 555555,
 };
 //# sourceMappingURL=interf.js.map
